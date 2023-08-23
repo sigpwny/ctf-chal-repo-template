@@ -9,7 +9,7 @@ Flag format: `sigpwny{...}`
     - `kctf chal create --template <templatename> <chalname> --challenge-dir ./<chalname>`
     - Available templates: `pwn`, `web`, `xss-bot`
     - Note: the kCTF config is `challenge.yaml` and the CTFd config is `challenge.yml`. Confusing? Yes.
-  - NO
+  - NO:
     - `mkdir /challenges/<category>/<chalname>`
 
 - Your challenge folder **MUST** have a `challenge.yml` file for CTFd, following the specification [here](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml)
